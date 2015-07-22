@@ -190,8 +190,6 @@ class KalturaCodeCuePointBaseFilter(KalturaCuePointFilter):
             systemNameEqual=NotImplemented,
             systemNameIn=NotImplemented,
             freeText=NotImplemented,
-            userIdEqualCurrent=NotImplemented,
-            userIdCurrent=NotImplemented,
             codeLike=NotImplemented,
             codeMultiLikeOr=NotImplemented,
             codeMultiLikeAnd=NotImplemented,
@@ -235,9 +233,7 @@ class KalturaCodeCuePointBaseFilter(KalturaCuePointFilter):
             forceStopEqual,
             systemNameEqual,
             systemNameIn,
-            freeText,
-            userIdEqualCurrent,
-            userIdCurrent)
+            freeText)
 
         # @var string
         self.codeLike = codeLike
@@ -420,8 +416,6 @@ class KalturaCodeCuePointFilter(KalturaCodeCuePointBaseFilter):
             systemNameEqual=NotImplemented,
             systemNameIn=NotImplemented,
             freeText=NotImplemented,
-            userIdEqualCurrent=NotImplemented,
-            userIdCurrent=NotImplemented,
             codeLike=NotImplemented,
             codeMultiLikeOr=NotImplemented,
             codeMultiLikeAnd=NotImplemented,
@@ -466,8 +460,6 @@ class KalturaCodeCuePointFilter(KalturaCodeCuePointBaseFilter):
             systemNameEqual,
             systemNameIn,
             freeText,
-            userIdEqualCurrent,
-            userIdCurrent,
             codeLike,
             codeMultiLikeOr,
             codeMultiLikeAnd,
